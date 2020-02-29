@@ -1,0 +1,99 @@
+.nav {
+    background-color: white;
+    border-bottom: thin solid lightpink;
+    position:fixed;
+    top:0;
+    left:0;
+    height: 50px;
+    width: 100vw;
+    
+}
+#brand {
+    float: right;
+    width: auto;
+    margin-right: 10px;
+    list-style-type: none;
+    margin-top: 20px;
+} 
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color:#0080ff;
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    position: relative;
+   top: 5%;
+   left: 10%;
+}
+   
+.page{
+    position:relative;
+   border: thin solid lightpink;
+   width: 300px;
+   height: 400px;
+   margin:auto;
+   top:1em;
+   left:1em;
+   background-color: white;
+   border-radius: 5px;
+}
+
+.form {
+    position:relative;
+    margin: auto;
+    padding: 0px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    top: 3%;
+    
+}
+#formstyle{
+    width: 75%;
+    padding:8px;
+    height: 10px;
+    margin-bottom: 10px; 
+    border: solid 1px grey;
+   
+    border-radius: 5px;
+}
+
+#submitInput{
+	width:80%;
+	background:#0080ff;
+	color:#FFF;
+	margin:auto;
+    padding:5px;
+    text-align:center;
+    border-radius: 5px;
+    border: solid 1px lightgrey;
+   
+}
+body{
+    background-color:#64b6ff;    
+    margin-top: 100px;
+    
+}
+.image{
+    text-align: center;
+    margin-top: 35px;    
+    display: block;
+   
+}
+#imagestyle{
+    padding: 0px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
